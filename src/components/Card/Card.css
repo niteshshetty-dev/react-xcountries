@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #eee;
+  border-radius: 0.5em;
+  align-sizing: stretch;
+}
+
+.card-media {
+  margin-top: 0.75em;
+  width: 50%;
+  aspect-ratio: 1/1;
+  over-flow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card-content {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: 600;
+  padding: 0.5em;
+}
